@@ -1,0 +1,289 @@
+.header_title{
+    font-size: 60px;
+    font-weight: bold;
+  
+}
+.headers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
+    /* padding-top: 60px; */
+    background-color: #fceef1;
+    /* padding: 0px 20px 0px 20px; */
+}
+.header_text{
+    font-size: 18px;
+    font-weight: 100;
+    color: #7e7b7b;
+}
+.header_info{
+    height: 500px;
+    width: 600px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+}
+.header_img_div{
+    height: 800px;
+    width: 550px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+}
+
+.header_img{
+    height: 100%;
+    width: 100%;
+}
+
+.header_btn{
+    height: 64px;
+    width: 117px;
+    background-color: #E55473;
+    border-radius: 10px;
+    border-color: #E55473;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Featured_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.featured_section_title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+}
+.featured_text_div{
+    width: 500px;
+    height: 132px;
+}
+.featured_section_text{
+    font-size: 18px;
+    font-weight: 100;
+    color: #7e7b7b;
+    text-align: center;
+}
+.featured_flower_section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+}
+
+.flowers_img{
+    width: 370px;
+    height: 370px;
+
+}
+.flowers_img_div{
+    width: 380px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 50% 50% 0% 0%;
+    margin-left: 20px;
+}
+.flower_text{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.flowers_img_div1{
+    background-color: #f2dee7;
+}
+.flowers_img_div2{
+    background-color: #d9eff1;
+}
+.flowers_img_div3{
+    background-color: #e3ebdb;
+}
+
+.footers{
+    height: 450px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_shop_title{
+    color: #E55473;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.footer_shop_title2{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+}
+.footer_text{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.footer_text2{
+    font-size: 16px;
+    color: rgb(197, 197, 197);
+    text-align: center;
+}
+.footer_title_main{
+    text-align: center;
+}
+
+.service_section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+}
+.service_text{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.service_text{
+    font-size: 16px;
+    text-align: center;
+}
+.service_img{
+    height: 88px;
+    width: 88px;
+    
+}
+.service_img_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service_section_div{
+    background-color: #f4f4f4;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+   
+}
+
+.insta_flower_section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+
+    column-gap: 10px;
+}
+.insta_flowers_img_div{
+     height: 390px;
+     width: 220px;
+}
+.insta_flowers_img{
+    height: 300px;
+    width: 300px;
+}
+
+.discount_img{
+    width: 320px;
+    height: 420px;
+}
+.span_text{
+    color: #E55473;
+}
+.discount_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    height: 800px;
+    width: 100%;
+    /* padding-top: 60px; */
+    background-color: #fceef1;
+    /* padding: 0px 20px 0px 20px; */
+}
+.discount_img_div{
+padding-left: 30px;
+}
+.discount_info{
+    height: 420px;
+    width: 550px;
+    text-align: center;
+}
+.discount_title{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.center_text{
+    text-align: center;
+}
+.discount_section{
+    height: 620px;
+}
+
+.section_gap{
+    margin-top: 50px;
+}
+.search_section{
+    background-image: url('./Flower Asset/Rectangle 9.png');
+}
+.search_title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.search_text{
+    color: #7e7b7b;
+    font-size: 16px;
+    text-align: center;
+}
+.Subscribe_btn{
+    height: 50px;
+    width: 150px;
+    background-color: #E55473;
+    border-radius: 10px;
+    border-color: #E55473;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.input_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search_input{
+    width: 600px;
+    height: 44px;
+    outline: white;
+    border-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.search_section{
+    margin-bottom: 60px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
